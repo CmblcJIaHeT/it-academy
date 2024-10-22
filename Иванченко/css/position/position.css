@@ -1,0 +1,46 @@
+body{
+    position: relative;
+    height:2000px;
+    padding-top: 80px;
+}
+.box{
+    /*display: block; блочный элемент*/
+    /*display: inline-block; строчный блочный элемент*/
+    /*display: inline; строчный элемент*/
+    position:relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #003895;
+    color: #ffffff;
+
+    /*color: #fffff; hex format*/
+    /*color: rgb(255,255,255; rgb format*/
+}
+#third{
+    /*position:static; статичное положение*/
+    position: absolute;
+    /*position:relative; !*Позиция элемента*!*/
+    top: 20px;
+    left: 20px;
+    /*right: 20px;*/
+    /*bottom: 20px;*/
+    background: orangered;
+}
+
+#second\ child{
+    width:100px;
+    height:100px;
+    background: crimson;
+}
+
+.fixed{
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 50px;
+    background: seagreen;
+    padding: 10px;
+    color: lightskyblue;
+}
