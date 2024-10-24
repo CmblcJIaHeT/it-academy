@@ -1,0 +1,18 @@
+.tab {
+    height: 30px;
+    background-color: #003895;
+    color: #ffffff;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#tret {
+    margin-bottom: 0;
+}
+
