@@ -1,0 +1,47 @@
+body {
+	background: #1F5768;
+	height: 98vh; /* Высота 98% от высоты окна браузера */
+}
+
+.pond {
+	display: flex; /* Flex-контейнер */
+	/*flex-direction: row;  Основная ось Flex-контенера */
+	/*flex-direction: column; основная ось по вертикали*/
+	/*flex-direction: row-reverse; Основная ось по горизонтали в обратном порядке*/
+	/*flex-direction: column-reverse; По вертекали в обратном порядке*/
+	/*justify-content: flex-start;*! расположение элементов по */
+	/*justify-content: center;* расположение элементов  по центру*/
+	/*!*justify-content: flex-end;*! расположение элементов с правой стороны*/
+	/*!*justify-content: space-around;*! расположение элементов по краям*/
+	/*justify-content: space-between; расположение элементов по краям с отступом*/
+	/*align-items: flex-start ; !*РАсположение элементов по поперечной оси*!*/
+	/*align-items: center ; расположение элементов по центру поперечной оси*/
+	/*align-items: flex-end; !*расположение по низу поперечной оси*!*/
+	/*flex-wrap: nowrap;  !*не переносит элементы на новую строку*!*/
+	flex-wrap: wrap; /*переносит элементы на новую строку*/
+	/*align-content: flex-start; !*Выравнивание конента внутри контейнера*!*/
+	align-content: center; /*Выравнивание конента внутри контейнера*/
+
+	height: 100%;
+
+.green {
+	order:3;
+}
+.yellow{
+/*order:1;*/
+}
+
+.red {
+	order: 2;
+	/*align-self: flex-start; !*Выравнивание отдельного элемента*!*/
+	/*align-self:center; !*Выравнивание отдельного элемента по центру*!*/
+	/*align-self: flex-end; !*Выравнивание отдельного элемента по низу*!*/
+}
+
+
+
+
+
+
+
+
