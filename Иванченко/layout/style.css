@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    margin:0;
+    flex-direction: column;
+    height: 100vh; /* Высота на весь экран */
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a34b3f;
+    padding-top: 10px; /*внутренний отступ сверху*/
+    padding-bottom: 10px; /*внутренний отступ снизу*/
+    color:wheat;
+}
+.main{
+    flex-grow: 1; /*Растянем данный блок*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #af6131;
+    flex-direction: column;
+    align-items: center;
+    color:wheat;
+}
+.logo{
+    color:wheat;
+    font-size:24px;
+    text-decoration: none; /*убирает нижнее подчёркивание*/
+}
+.navigation ul {
+    margin:0;
+    padding:0;
+    display:flex;
+    list-style: none; /*Убирает точки из списка ul*/
+}
+.navigation{
+    margin-right: 40px;
+}
+.main h1{
+    margin-bottom: 40px;
+
+}
+.main-button {
+    width: 200px;
+    height: 50px;
+    background-color: #c60e0e;
+    color: wheat ;
+    border: none;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-color: #181b80;
+}
+.footer{
+    background-color: brown;
+    color:wheat;
+    padding: 10px;
+    padding-left: 10px;
+}
+.navigation li{
+    margin-right: 40px;
+}
+.navigation a{
+    text-decoration: none;
+    color: wheat;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width:1200px;
+    margin:0 auto;
+}
