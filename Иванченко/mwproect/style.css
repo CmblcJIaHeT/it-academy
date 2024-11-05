@@ -1,0 +1,116 @@
+body{
+    display: flex;
+    margin:0;
+    flex-direction: column;
+    height: 100vh; /* Высота на весь экран */
+    padding-left: 200px;
+    padding-right: 200px;
+    background-color: lightgray;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d57301;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.main{
+    flex-grow: 1; /*Растянем данный блок*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    color: #000000;
+}
+.navigation ul {
+    margin:0;
+    padding:0;
+    display:flex;
+    list-style: none;
+}
+.navigation{
+    margin-right: 40px;
+}
+.main h1{
+    margin-bottom: 40px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    background-color: #d57301;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+.navigation li{
+    margin-right: 40px;
+}
+.navigation a{
+    text-decoration: none;
+    color: wheat;
+}
+.navigation .main-link {
+    text-decoration: underline;
+}
+
+.first-text{
+    flex: 1;
+position: relative;
+    margin-right: 20px;
+}
+
+.second-text {
+    flex: 1;
+}
+.third-text{
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+.all-text {
+    display: flex;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
