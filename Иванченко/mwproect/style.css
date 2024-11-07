@@ -59,7 +59,7 @@ body{
 
 .first-text{
     flex: 1;
-position: relative;
+    position: relative;
     margin-right: 20px;
 }
 
@@ -67,8 +67,8 @@ position: relative;
     flex: 1;
 }
 .third-text{
-    border: 1px solid black;
     padding: 10px;
+    /**/
 
 }
 
