@@ -1,0 +1,39 @@
+.but1{
+    color:blue;
+    padding-right:215px;
+}
+.but2{
+    color:seagreen;
+    padding-right:199px;
+}
+.but3{
+    color:red;
+    padding-right:200px;
+}
+.inp1{
+    padding-right: 150px;
+}
+.inp2{
+    padding-right: 150px;
+}
+.inp3{
+    padding-right: 150px;
+}
+.ud1{
+    width: 33.3%;
+    height: 550px;
+}
+#ud1{
+    background-color:royalblue;
+}
+#ud2{
+    background-color:darkolivegreen;
+}
+#ud3{
+    background-color: firebrick;
+}
+
+.uds {
+    display: flex;
+    margin-top: 60px;
+}
