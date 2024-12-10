@@ -1,0 +1,46 @@
+#but1{
+    background-color: green ;
+    color: white;
+    height: 40px;
+    width:150px;
+    border-radius: 10px;
+}
+#but2{
+    color: white;
+    background-color: gray;
+    height: 40px;
+    width:150px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+#ud1{
+    height: 600px;
+    display: block;
+    font-family: Calibri;
+    border: 1px solid #000000;
+    width: 600px;
+    border-radius: 5px;
+}
+#f{
+    height: 600px;
+    display: block;
+    font-family: Calibri;
+    border: 1px solid #000000;
+    width: 600px;
+    margin-left: 40px ;
+    border-radius: 5px;
+}
+.in{
+    height: 25px;
+    display: block;
+    width: 540px;
+    margin-bottom: 10px;
+}
+#i{
+    margin-left:200px
+}
+
+#if{
+    display: flex;
+}
