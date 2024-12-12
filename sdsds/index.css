@@ -37,10 +37,19 @@
     width: 540px;
     margin-bottom: 10px;
 }
-#i{
-    margin-left:200px
+.i{
+    margin-left:170px
 }
 
 #if{
     display: flex;
+}
+
+.ifd{
+    color:black;
+    font-family: Calibri;
+    margin-left:140px;
+    margin-top:5px;
+    font-size:20px;
+    font-weight: 600;
 }
