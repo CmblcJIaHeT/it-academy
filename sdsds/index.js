@@ -6,44 +6,58 @@ let spa5 = document.getElementById("inp5")
 let but1 = document.getElementById("but1")
 let but2 = document.getElementById("but2")
 
-// function changeParagraphText1(){
-//     spa1.innerText =
-// }
-// but1.addEventListener("click",changeParagraphText1)
-//
-// function changeParagraphText2(){
-//     spa2.innerText =
-// }
-// but1.addEventListener("click",changeParagraphText2)
-//
-// function changeParagraphText3(){
-//     spa3.innerText =
-// }
-// but1.addEventListener("click",changeParagraphText3)
-//
-// function changeParagraphText4(){
-//     spa4.innerText =
-// }
-// but1.addEventListener("click",changeParagraphText4)
-//
-// function changeParagraphText5(){
-//     spa5.innerText =
-//
-// }
-// but1.addEventListener("click",changeParagraphText5)
-
 
 let button = document.getElementById('but1');
 let elements = document.getElementById('elements');
-let elementNumber = 0;
+let deleteButton = document.createElement('deleteButton')
 function appendElement() {
     const newDiv = document.createElement('div');
-    newDiv.classList.add('element');
-    elementNumber = elementNumber + 1;
-    newDiv.innerHTML = `<span>Новый элемент №${ elementNumber }</span>`;
+    newDiv.innerHTML += `<div>${spa1.value}</div>`;
+    newDiv.innerHTML += `<div>Цена${spa2.value}</div>`;
+    newDiv.innerHTML += `<div>Количество${spa3.value}</div>`;
+    newDiv.innerHTML += `<div>Артикул${spa4.value}</div>`;
+    newDiv.innerHTML += `<div>Описание${spa5.value}</div>`;
     elements.append(newDiv);
+
+    let deleteDiv = document.createElement('button')
+    newDiv.append(deleteDiv)
+    deleteButton.innerHTML = 'Удалить'
+    function deleteBut() {
+        newDiv.remove()
+    }
+
+    deleteDiv.addEventListener('click', deleteBut)
+    elements.append(newDiv, deleteDiv)
 }
 
 button.addEventListener('click', appendElement);
+function buttonInput1(){
+    spa1.value = ''
+}
+but2.addEventListener('click', buttonInput1)
+
+function buttonInput2() {
+    spa2.value = ''
+}
+but2.addEventListener('click', buttonInput2)
+
+function buttonInput3() {
+    spa3.value = ''
+}
+but2.addEventListener('click', buttonInput3)
+
+function buttonInput4() {
+    spa4.value = ''
+}
+but2.addEventListener('click', buttonInput4)
+
+function buttonInput5() {
+    spa5.value = ''
+}
+but2.addEventListener('click', buttonInput5)
+
+
+
+
 
 

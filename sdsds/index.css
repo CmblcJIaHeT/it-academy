@@ -46,10 +46,12 @@
 }
 
 .ifd{
+    display: flex;
     color:black;
     font-family: Calibri;
-    margin-left:140px;
+    margin-left:20px;
     margin-top:5px;
     font-size:20px;
-    font-weight: 600;
+    justify-content: space-between;
+    /*border: 1px solid #000000;*/
 }
